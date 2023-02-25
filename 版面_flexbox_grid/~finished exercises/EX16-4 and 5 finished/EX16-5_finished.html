@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Black Goose Bakery Grid</title>
+<link href="https://fonts.googleapis.com/css?family=Stint+Ultra+Expanded" rel="stylesheet">
+<style>
+
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+body {
+  font-family: Georgia, serif; 
+  font-size: 100%;
+  background-color: white;
+  margin: 0;
+}
+
+/* GRID STYLES START HERE */
+#layout {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: grid;
+  grid-template-rows: 3em 20px [main-start] 150px auto 5em [main-end];
+  grid-template-columns:  [main-start] 1fr [main-end] repeat(3, 20px 150px); 
+}
+nav {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 8;
+} 
+#figA {
+  grid-area: 3 / 3 / 4 / 4;
+}
+#figB {
+  grid-area: 3 / 5 / 4 / 6;
+}
+#figC {
+  grid-row: 3 / 4;
+  grid-column: span 1 / -1;
+}
+main {
+/*  grid-row: main-start / main-end;
+  grid-column: main-start / main-end; */
+  grid-area: main;
+}
+footer { 
+  grid-row: 5 / 6;
+  grid-column: 3 / -1;
+  } 
+
+
+/* VISUAL STYLES START HERE */
+
+/* link styles */
+a:link, a:visited { color: #DC6903; }
+a:focus, a:hover, a:active { color: #F9AB33; }
+
+a {
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  padding-bottom: .2em;
+}
+
+
+
+/* nav styles */
+nav, footer {
+  font-family: verdana, sans-serif;
+  background-color: #783F27;
+}
+nav ul li a:link, nav ul li a:visited {
+  color: #F9AB33;
+}
+nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
+  color: #fff;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  font-size: .8em;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+nav ul li a {
+  display: block;
+  border: 1px solid;
+  border-radius: .5em;
+  padding: .5em 1em;
+  margin: .5em; 
+}
+
+
+/* main styles */
+main {
+  font-family: 'Stint Ultra Expanded', Georgia, serif;
+  background-color: white;
+  line-height: 1.8em;
+  color: #555;
+  padding: 1em;
+  border: double 4px #EADDC4;
+  border-radius: 25px;
+}
+
+
+/* misc styles */
+
+figure {
+  margin: 0;
+  padding: 0;'
+   /* clears browser styles for figures */
+}
+
+footer {
+  color: #EADDC4;
+  text-align: center;
+  font-size: .8em;
+  padding: .5em;
+}
+
+</style>
+</head>
+
+<body>
+<div id="layout">
+
+<nav>
+  <ul>
+    <li><a href="">Menu</a></li>
+    <li><a href="">News</a></li>
+    <li><a href="">About</a></li>
+    <li><a href="">Contact</a></li>
+  </ul>
+</nav>  
+
+<main>
+<h2>Introducing: Breads of the World!</h2>
+<p>It seems as though every region of the world has its own special take on this staple of humankind. From crusty french baguettes to table-sized Afghan flat-breads, breads can come in all shapes, sizes, and textures.</p>
+<p>Each month, we feature a bread that is the specialty of a particular culture or part of the world. Some will be made in-house by our bakers who travel around the world learning regional techniques in order to bring them back for you to try. Other breads will be provided by local bakeries that have been making bread for their communities for generations.</p>
+
+<p>When you are in the bakery, we encourage you to give our featured Bread of the World a try. If you can't make it to the shop, many of our breads will be available for purchase online.</p>
+<p>Providing you with fresh, unique breads is one of the things that makes Black Goose Bakery proud.</p>
+<!--
+<p>Our breads are made daily from highest-quality whole grain flour, water, salt, and yeast or sourdough starter. Simply and naturally, and never any preservatives. Patience is key to achieving the proper level of fermentation and baking each loaf to perfection. Available in whole grain, sourdough, olive loaf, classic rye, and potato-onion.</p>
+-->
+</main>
+
+<figure id="figA"><img src="images/uzbek_150.jpg"></figure>
+<figure id="figB"><img src="images/bread_150.jpg"></figure>
+<figure id="figC"><img src="images/braided_150.jpg"></figure>
+
+<footer>
+<p><strong>Black Goose Bakery</strong> | Seekonk, MA <br>
+Monday &ndash; Friday: 5am to 3pm | Saturday &amp; Sunday: 6am to 4pm</p>
+</footer>
+
+</div>
+</body>
+</html>
+
+
