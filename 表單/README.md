@@ -1,0 +1,68 @@
+## 表單
+
+#### pizza.html
+
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Blackstone Bistro：披薩點播</title>
+  <style type="text/css">
+    ol,
+    ul {
+      list-style-type: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Blackstone Bistro：披薩點播</h1>
+
+  <p>我們的 12 英寸燃木比薩餅可外送。定制您的比薩餅，我們將在一小時內送達。</p>
+
+
+  你的資料
+  <ul>
+    <li>姓名：</li>
+    <li>地址：</li>
+    <li>電話號碼：</li>
+    <li>郵箱：</li>
+    <li>送貨說明：</li>
+  </ul>
+
+
+  <h2>設計您的夢想披薩：</h2>
+
+  <p>披薩規格
+  <p>
+
+  <p>類型<em>（選擇一個）</em>：</p>
+  <ul>
+    <li>經典白</li>
+    <li>雜糧</li>
+    <li>芝士餡麵包皮</li>
+    <li>無麩質</li>
+  </ul>
+
+  <p>料理<em>（隨意選擇）</em>：</p>
+  <ul>
+    <li>紅醬</li>
+    <li>白醬</li>
+    <li>馬蘇里拉奶酪</li>
+    <li>意大利辣香腸</li>
+    <li>蘑菇</li>
+    <li>辣椒</li>
+    <li>鳳尾魚</li>
+  </ul>
+
+  <p>電話號碼：</p>
+  <p>多少披薩：
+  <p>
+
+</body>
+
+</html>
+```
