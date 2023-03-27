@@ -18,3 +18,7 @@
 
 ### 2023_03_27_早上
 [錄影](https://youtube.com/live/b0NiVf-NcGU)
+
+### 2023_03_27_下午
+
+[錄影](https://youtube.com/live/YUH62bVTNxE)
