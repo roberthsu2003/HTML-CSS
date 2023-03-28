@@ -26,3 +26,7 @@
 ### 2023_03_28_上午
 
 [錄影](https://youtube.com/live/BIdhs6eC0Bg)
+
+### 2023_03_28_下午
+
+[錄影](https://youtube.com/live/khkgtbOgJ2U)
