@@ -34,3 +34,8 @@
 ### 2023_04_10_早上
 
 [錄影](https://youtube.com/live/Yf9IZSKACPc)
+
+### 2023_04_10_下午
+
+[錄影](https://youtube.com/live/Yf9IZSKACPc)
+
