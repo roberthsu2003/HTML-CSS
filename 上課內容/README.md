@@ -39,3 +39,9 @@
 
 [錄影](https://youtube.com/live/wBjP_3xhjnw)
 
+### 2023_04_11_整天
+
+[錄影](https://youtube.com/live/SqEglI-WQ84)
+
+
+
