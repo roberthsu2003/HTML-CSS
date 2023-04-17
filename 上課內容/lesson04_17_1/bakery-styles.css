@@ -14,6 +14,11 @@ body {
 }
 
 /* link styles */
+a{
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    padding-bottom: .2em;
+}
 a:link,
 a:visited {
     color: #DC6903;
@@ -71,12 +76,16 @@ main {
     line-height: 1.8em;
     color: #555;
     padding: 1em;
+    border: double 4px #EADDC4;
 }
 
 h3 {
     text-transform: uppercase;
     letter-spacing: .2em;
     color: #7A0002;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    padding-left: 1em;
 }
 
 p.more {
@@ -90,7 +99,8 @@ aside {
     background: url(images/scallop.png) repeat-y left top;
     background-color: #F6F3ED;
     padding: 1em;
-    padding-left: 45px
+    padding-left: 45px;
+    border-top-right-radius: 25px;
 }
 
 /* misc styles */
