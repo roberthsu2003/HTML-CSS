@@ -64,6 +64,11 @@ main {
     color: #555;
 }
 
+main img{
+    float:left;
+    margin: 0 1em 1em 0;
+}
+
 h3 {
     text-transform: uppercase;
     letter-spacing: .2em;
