@@ -49,6 +49,8 @@
 ### 2023_04_17_下午
 [錄](https://youtube.com/live/PFp9HD_BSxs)
 
+### 2023_04_18_早上
+[錄](https://youtube.com/live/THDv__pSBY0)
 
 
 
