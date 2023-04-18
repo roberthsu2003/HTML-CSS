@@ -52,5 +52,8 @@
 ### 2023_04_18_早上
 [錄](https://youtube.com/live/THDv__pSBY0)
 
+### 2023_04_18_下午
+[錄](https://youtube.com/live/LrDBPF0_OY4)
+
 
 
