@@ -6,11 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <title>Bootstrap Example</title>
+    <style>
+        header ul{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style-type:none;
+        }
+        #logo{
+            margin-right: auto;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <div><img src="images/logo.png" alt="logo"></div>
         <ul>
+            <li id="logo"><img src="images/logo.png" alt="logo"></li>
             <li><a href="#">Home</a></li>
             <li><a href="#">Feature</a></li>
             <li><a href="#">Price</a></li>
