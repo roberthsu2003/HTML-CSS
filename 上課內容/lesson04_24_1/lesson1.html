@@ -113,6 +113,24 @@
         main h4{
             font-size: 1.5em;
         }
+
+        footer{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: flex-end;
+            align-items: center;
+            margin-top:2em;
+        }
+
+        footer #copyright{            
+            font-size: smaller;
+            margin-right:2em;
+        }
+
+        footer #copyright ~ p{
+            flex: 0 1 40px;
+        }
     </style>
 </head>
 <body>
@@ -160,6 +178,13 @@
             </section>
         </div>
     </main>
+    <footer>
+        <p id="copyright">© 2023 Company, Inc</p>
+        <p><a href="#"><img src="images/icon4.png" alt="icon4" width="20"></a></p>
+        <p><a href="#"><img src="images/icon5.png" alt="icon4" width="20"></a></p>
+        <p><a href="#"><img src="images/icon6.png" alt="icon4" width="20"></a></p>
+        
+    </footer>
     
 </body>
 </html>
