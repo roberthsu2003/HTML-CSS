@@ -46,7 +46,6 @@
 
         section#banner{
             box-sizing: border-box;
-            background-color: antiquewhite;
             width:75%;
             margin:1em auto;
         }
@@ -64,16 +63,12 @@
             color:#555;
         }
 
-        
-        section#banner div::after{
-            content: " ";
-            display: block;
-            clear:both;
-        }
-
+        section#banner div{
+            text-align: center;
+        }        
 
         section#banner div a{
-            display: block;
+            display: inline-block;
             padding: 1em 1.5em;
             width:5em;
             background-color: #55A8DA;
@@ -81,11 +76,25 @@
             font-weight: bolder;
             color:white;
             border-radius: .8em;
-            float:left;
         }
 
         section#banner div a:link{
             text-decoration: none;
+        }
+
+        section#banner div a:hover{
+            color:#ccc;
+        }
+
+        main{
+            margin: 1em auto;
+        }
+
+        main h3{
+            font-size: 1.5em;
+            color:#555;
+            border-bottom: #555 solid 1px;
+            padding-bottom: 1em;
         }
     </style>
 </head>
@@ -109,6 +118,9 @@
         </div>
         
     </section>
+    <main>
+        <h3>Columns with icons</h3>
+    </main>
     
 </body>
 </html>
