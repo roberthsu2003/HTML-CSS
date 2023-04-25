@@ -61,4 +61,6 @@
 ### 2023_04_24_下午
 [錄影](https://youtube.com/live/R7jwBjCN5xA)
 
+### 2023_04_25_早上
+[錄影](https://youtube.com/live/l8uj5Lg-0wY)
 
