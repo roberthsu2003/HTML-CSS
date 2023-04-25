@@ -9,51 +9,62 @@
 
     <style>
         /*手機*/
-        #container{
-            display:grid;
+        #container {
+            display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: 10em 15em 60em 15em 5em;
             grid-template-areas:
-            "header"
-            "aside"
-            "main"
-            "links"
-            "footer";
+                "header"
+                "aside"
+                "main"
+                "links"
+                "footer";
         }
 
-        header{
+        header {
             grid-area: header;
             background-color: azure;
         }
 
-        aside{
+        aside {
             grid-area: aside;
-            background-color:beige
+            background-color: beige
         }
 
-        main{
+        main {
             grid-area: main;
-            background-color:dimgray;
+            background-color: dimgray;
         }
 
-        section{
+        section {
             grid-area: links;
-            background-color:chocolate;
+            background-color: chocolate;
         }
 
-        footer{
+        footer {
             grid-area: footer;
             background-color: mediumturquoise;
         }
 
-        @media (min-width: 768px){
+        @media(min-width: 768px) {
+
             /*平版和筆電*/
-            
+            #container {
+                display: grid;
+                grid-template-columns: 20em 1fr;
+                grid-template-rows: 10em 60em 15em 5em;
+                grid-template-areas:
+                    "header header"
+                    "aside main"
+                    "links links"
+                    "footer footer";
+            }           
+
         }
 
-        @media (min-width: 1200px){
+        @media (min-width: 1200px) {
             /*平版和筆電*/
-            
+
         }
     </style>
 </head>
