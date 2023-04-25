@@ -8,8 +8,12 @@
     <style>
         #layout{
             display: grid;
-            grid-template-rows: 100px 400px 100px;
-            grid-template-columns: 200px 500px 200px;
+            grid-template-rows: [hearer-start] 100px [content-start] 400px [footer-start] 100px;
+            grid-template-columns: [ads] 200px [main] 500px [links] 200px;
+            grid-template-areas:
+            "header header header"
+            "ads    main   links"
+            "footer footer footer";
         }
         #one{
             font-size: 3em;
