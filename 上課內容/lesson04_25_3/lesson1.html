@@ -8,14 +8,16 @@
     <title>Response Web Design(RWD)</title>
 
     <style>
+        /*手機*/
         #container{
             display:grid;
             grid-template-columns: 1fr;
-            grid-template-rows: 10em 15em 60em 5em;
+            grid-template-rows: 10em 15em 60em 15em 5em;
             grid-template-areas:
             "header"
             "aside"
             "main"
+            "links"
             "footer";
         }
 
@@ -34,9 +36,24 @@
             background-color:dimgray;
         }
 
+        section{
+            grid-area: links;
+            background-color:chocolate;
+        }
+
         footer{
             grid-area: footer;
             background-color: mediumturquoise;
+        }
+
+        @media (min-width: 768px){
+            /*平版和筆電*/
+            
+        }
+
+        @media (min-width: 1200px){
+            /*平版和筆電*/
+            
         }
     </style>
 </head>
@@ -54,6 +71,10 @@
         <main>
             <h1>Main</h1>
         </main>
+
+        <section>
+            <h1>Links</h1>
+        </section>
 
         <footer>
             <h1>footer</h1>
