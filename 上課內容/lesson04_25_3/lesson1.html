@@ -1,27 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Response Web Design</title>
+    <title>Response Web Design(RWD)</title>
+
+    <style>
+        #container{
+            display:grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 10em 15em 60em 5em;
+            grid-template-areas:
+            "header"
+            "aside"
+            "main"
+            "footer";
+        }
+
+        header{
+            grid-area: header;
+            background-color: azure;
+        }
+
+        aside{
+            grid-area: aside;
+            background-color:beige
+        }
+
+        main{
+            grid-area: main;
+            background-color:dimgray;
+        }
+
+        footer{
+            grid-area: footer;
+            background-color: mediumturquoise;
+        }
+    </style>
 </head>
+
 <body>
-    <header>
-        <h1>Header</h1>
-    </header>
+    <div id="container">
+        <header>
+            <h1>Header</h1>
+        </header>
 
-    <aside>
-        <h1>Aside</h1>
-    </aside>
+        <aside>
+            <h1>Aside</h1>
+        </aside>
 
-    <main>
-        <h1>Main</h1>
-    </main>
+        <main>
+            <h1>Main</h1>
+        </main>
 
-    <footer>
-        <h1>footer</h1>
-    </footer>
+        <footer>
+            <h1>footer</h1>
+        </footer>
+    </div>
 
 </body>
+
 </html>
