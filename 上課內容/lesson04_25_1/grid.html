@@ -26,10 +26,44 @@
       margin-left: 5%;
       margin-right: 5%;
       display:grid;
-      grid-template-rows: 3em 20px 150px 300px 5em;
-      grid-template-columns: 1fr 20px 150px 20px 150px 20px 150px;
+      grid-template-rows: 3em 20px [main-start] 150px 300px 5em [main-end];
+      grid-template-columns: [main-start] 1fr [main-end] 20px 150px 20px 150px 20px 150px;
     }
 
+    nav{
+      grid-row-start:1;
+      grid-row-end:2;
+      grid-column-start:1;
+      grid-column-end:8;
+    }
+
+    #figC{
+      grid-row: 3 / 4;
+      grid-column: 7 / 8;
+    }
+
+    #figB{
+      grid-row: 3 / 4;
+      grid-column: 5 / 6;
+    }
+
+    #figA{
+      grid-row: 3 / 4;
+      grid-column: 3 / 4;
+    }
+
+    main{
+      /*
+      grid-row: main-start / main-end;
+      grid-column: main-start / main-end;
+      */
+      grid-area: main;
+    }
+
+    footer{
+      grid-row: 5 / 6;
+      grid-column: 3 / -1;
+    }
 
 
     /* VISUAL STYLES START HERE */
