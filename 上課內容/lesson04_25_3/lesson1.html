@@ -46,6 +46,13 @@
             background-color: mediumturquoise;
         }
 
+        /*header-layout*/
+        header{
+            display:flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+
         @media(min-width: 768px) {
 
             /*平版和筆電*/
@@ -80,6 +87,7 @@
 <body>
     <div id="container">
         <header>
+            <img src="images/logo.png" alt="logo">
             <nav>
                 <ul>
                     <li><a href="#" class="active">Home</a></li>
