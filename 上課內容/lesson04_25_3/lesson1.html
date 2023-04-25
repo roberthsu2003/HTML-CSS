@@ -23,7 +23,6 @@
 
         header {
             grid-area: header;
-            background-color: azure;
         }
 
         aside {
@@ -56,12 +55,22 @@
         }
 
         header ul{
-            margin:0;
+            margin:1em 0;
             padding:0;
             list-style-type: none;
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
+            justify-content:space-around;
+        }
+
+        header li a{
+            display:block;
+            background-color:darkseagreen;
+            color: white;
+            border-radius: 0.3em;
+            padding: .5em;
+            margin:0 .2em;
         }
 
         header li a:link{
