@@ -12,7 +12,7 @@
         #container {
             display: grid;
             grid-template-columns: 1fr;
-            grid-template-rows: 10em 15em 60em 15em 5em;
+            grid-template-rows: auto 15em 60em 15em 5em;
             grid-template-areas:
                 "header"
                 "aside"
@@ -52,7 +52,7 @@
             #container {
                 display: grid;
                 grid-template-columns: 20em 1fr;
-                grid-template-rows: 10em 60em 15em 5em;
+                grid-template-rows: auto 60em 15em 5em;
                 grid-template-areas:
                     "header header"
                     "aside main"
@@ -67,7 +67,7 @@
             #container {
                 display: grid;
                 grid-template-columns: 20em 1fr 20em;
-                grid-template-rows: 10em 60em 5em;
+                grid-template-rows: auto 60em 5em;
                 grid-template-areas:
                     "header header header"
                     "aside main links"
@@ -80,7 +80,15 @@
 <body>
     <div id="container">
         <header>
-            <h1>Header</h1>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Feature</a></li>
+                    <li><a href="#">Price</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
         </header>
 
         <aside>
