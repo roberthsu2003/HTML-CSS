@@ -10,7 +10,7 @@ body{
 #layout{
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 300px 500px 200px;
+    grid-template-rows: 300px auto 200px;
     grid-template-areas:
     "header"
     "content"
@@ -30,6 +30,25 @@ body{
 #layout footer{
     grid-area: footer;
     background-color: honeydew;
+}
+
+#cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#cards section{
+    flex: 0 1 100%;
+    height:100px;
+}
+
+#cards section.s1{
+    background-color: blueviolet;
+}
+
+#cards section.s2{
+    background-color:brown;
 }
 
 /* Small devices (landscape phones, 576px and up) */
