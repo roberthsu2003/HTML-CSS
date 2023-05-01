@@ -1,7 +1,35 @@
+body{
+    background-color: lightgray;
+}
 #root {
     width:100%;
     margin-left:auto;
     margin-right:auto;
+}
+
+#layout{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px 500px 200px;
+    grid-template-areas:
+    "header"
+    "content"
+    "footer"
+}
+
+#layout header{
+    grid-area: header;
+    background-color: beige;
+}
+
+#layout main{
+    grid-area: content;
+    background-color:cornsilk
+}
+
+#layout footer{
+    grid-area: footer;
+    background-color: honeydew;
 }
 
 /* Small devices (landscape phones, 576px and up) */
