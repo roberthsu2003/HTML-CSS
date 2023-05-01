@@ -10,7 +10,7 @@ body{
 #layout{
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 300px auto 200px;
+    grid-template-rows: auto auto 200px;
     grid-template-areas:
     "header"
     "content"
@@ -19,7 +19,7 @@ body{
 
 #layout header{
     grid-area: header;
-    background-color: beige;
+    background-color: white;
 }
 
 #layout main{
@@ -54,6 +54,19 @@ body{
 #cards h1{
     text-align: center;
     margin: 2em 0em;
+}
+
+header h2 {
+    font-size: 2em;
+    text-align: center;
+    line-height: 1.5em;
+    color: rgb(106, 106, 106);
+    margin-top:2em;  
+}
+
+header img{
+    display: block;
+    margin:1em  auto 2em;
 }
 
 /* Small devices (landscape phones, 576px and up) */
