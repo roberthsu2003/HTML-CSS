@@ -61,17 +61,18 @@ body{
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
     #root {
-        max-width:720px;
-        
-        
+        max-width:720px;         
+    }
+
+    #cards section{
+        flex:0 1 50%
     }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
     #root {
-        max-width: 960px;
-        
+        max-width: 960px;        
     }
 }
 
@@ -79,7 +80,9 @@ body{
 @media (min-width: 1200px) { 
     #root {
         max-width: 1140px;
-
+    }
+    #cards section{
+        flex:0 1 33%
     }
 }
 
