@@ -79,10 +79,41 @@ body{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-start;
+    align-items: flex-start;
     padding:0 1em;  
 }
+#cards .cardFooter .view{
+    flex:0 1 auto;
+    
+    padding:0.5em;
+    border-radius: 0.4em 0 0 0.4em;
+}
+#cards .cardFooter .edit{
+    flex:0 1 auto;
+    
+    padding:0.5em;
+    border-radius: 0 0.4em 0.4em 0;
+}
+
+#cards .cardFooter a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(127, 126, 126);
+    background-color: lightgray;
+    color:white;
+    font-size: 0.8em;
+}
+
+#cards .cardFooter a:hover{
+    color:black;
+}
+
 #cards .cardFooter span{
+    flex:0 1 auto;
     margin-left:auto;
+    padding:0.5em;
+    font-size: 0.8em;
+    color: rgb(126,126,126)
 }
 
 /* The header titles */
