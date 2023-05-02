@@ -1,12 +1,15 @@
 body{
     background-color: lightgray;
 }
-#root {
+
+/* The root element */
+#root {    
     width:100%;
     margin-left:auto;
     margin-right:auto;
 }
 
+/* The layout grid */
 #layout{
     display:grid;
     grid-template-columns: 1fr;
@@ -17,45 +20,54 @@ body{
     "footer"
 }
 
+/* The header */
 #layout header{
     grid-area: header;
     background-color: white;
 }
 
+/* The content */
 #layout main{
     grid-area: content;
     background-color:cornsilk
 }
 
+/* The footer */
 #layout footer{
     grid-area: footer;
     background-color: honeydew;
 }
 
+/* The cards */
 #cards{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
+/* The card sections */
 #cards section{
     flex: 0 1 100%;
     border: 1px black solid;
 }
 
+/* The first card section */
 #cards section.s1{
     background-color: blueviolet;
 }
 
+/* The second card section */
 #cards section.s2{
     background-color:brown;
 }
 
+/* The card titles */
 #cards h1{
     text-align: center;
     margin: 2em 0em;
 }
 
+/* The header titles */
 header h2 {
     font-size: 2em;
     text-align: center;
@@ -64,6 +76,7 @@ header h2 {
     margin-top:2em;  
 }
 
+/* The header image */
 header img{
     display: block;
     margin:1em  auto 2em;
