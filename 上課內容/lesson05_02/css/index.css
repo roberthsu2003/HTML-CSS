@@ -51,8 +51,7 @@ body{
     padding:2em;
 }
 
-#cards section div{
-    border: 1px rgba(0, 0, 0, 0.1) solid;
+#cards section .card{
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2)
 }
 
@@ -68,10 +67,22 @@ body{
 
 #cards .card .cardText{
     flex:0 1 100px;
+    padding: 1em;
 }
 
 #cards .card .cardFooter{
     flex:0 1 50px;
+}
+
+#cards .cardFooter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding:0 1em;  
+}
+#cards .cardFooter span{
+    margin-left:auto;
 }
 
 /* The header titles */
