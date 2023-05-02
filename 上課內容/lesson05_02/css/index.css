@@ -56,6 +56,24 @@ body{
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2)
 }
 
+#cards .card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#cards .card .cardTitle{
+    flex:0 1 200px;
+}
+
+#cards .card .cardText{
+    flex:0 1 100px;
+}
+
+#cards .card .cardFooter{
+    flex:0 1 50px;
+}
+
 /* The header titles */
 header h2 {
     font-size: 2em;
