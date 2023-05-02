@@ -29,13 +29,12 @@ body{
 /* The content */
 #layout main{
     grid-area: content;
-    background-color:cornsilk
+    background-color:darkgray;
 }
 
 /* The footer */
 #layout footer{
     grid-area: footer;
-    background-color: honeydew;
 }
 
 /* The cards */
