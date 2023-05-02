@@ -13,7 +13,7 @@ body{
 #layout{
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto 200px;
+    grid-template-rows: auto auto auto;
     grid-template-areas:
     "header"
     "content"
@@ -83,14 +83,25 @@ header img{
 }
 
 footer ul{
-    margin:0;
+    margin:2em 2em 0 0;
     padding:0;
     display:flex;
     flex-direction:row;
     flex-wrap: nowrap;
+    justify-content: center;
 }
 
+footer address{
+    margin-top:2em;
+    text-align: center;
+    font-size: small;
+    color: lightgray;
+}
 footer ul a:link{
+    text-decoration: none;
+    color: lightgray;
+}
+footer ul a:hover{
     text-decoration: none;
     color: black;
 }
@@ -100,6 +111,11 @@ footer ul img, footer ul span{
     display: block;
     margin:0 auto;
     text-align: center;
+}
+
+footer ul li{
+    list-style-type: none;
+    padding:0 1em;
 }
 
 /* Small devices (landscape phones, 576px and up) */
