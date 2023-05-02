@@ -48,24 +48,13 @@ body{
 /* The card sections */
 #cards section{
     flex: 0 1 100%;
-    border: 1px black solid;
     padding:2em;
 }
 
 #cards section div{
-    border: 1px black solid;
+    border: 1px rgba(0, 0, 0, 0.1) solid;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2)
 }
-
-/* The first card section */
-#cards section.s1{
-    background-color: blueviolet;
-}
-
-/* The second card section */
-#cards section.s2{
-    background-color:brown;
-}
-
 
 /* The header titles */
 header h2 {
