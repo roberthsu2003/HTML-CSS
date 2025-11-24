@@ -4,6 +4,10 @@
 
 ![](./images/魔法彈性搬家記.png)
 
+### display:flex的思考流程
+
+![](./images/flex視覺化決策路徑.png)
+
 #### bakery.html
 
 ```html
