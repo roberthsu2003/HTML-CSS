@@ -1,5 +1,9 @@
 ## css 版面(flexbox,grid)
 
+### display:flex的觀念
+
+![](./images/魔法彈性搬家記.png)
+
 #### bakery.html
 
 ```html
